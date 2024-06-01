@@ -1,0 +1,65 @@
+/* General styles  */
+* {
+width: 100%;
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #D5E1EF;
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    text-align: center;
+}
+
+/* style for container */
+.main_qr {
+    height: 497px;
+    width: 320px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 2px 2px 20px #979797;
+}
+
+/* Styles for qr code */
+
+img { 
+    height: 288px;
+    width: 288px;
+    border-radius: 20px;
+}
+
+h1 {
+    font-size: 20px;
+    text-align: center;
+    padding: 16px;
+}
+
+p {
+    margin: 5px;
+    padding: 0px 32px;
+    color: #7D889E
+}
+
+
+/* div class for footer */
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    margin-top: 20px; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
